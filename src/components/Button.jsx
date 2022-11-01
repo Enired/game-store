@@ -3,6 +3,6 @@ import "../style/Button.scss"
 export const Button = (props) => {
 
   return (
-    <button className={props.primary}>{props.label}</button>
+    <button onClick={()=>props.onClick()}>{props.label}</button>
   )
 }
